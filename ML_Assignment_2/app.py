@@ -43,7 +43,7 @@ if uploaded_file is not None:
     st.subheader("Uploaded Data Preview")
     st.dataframe(data.head())
 
-    TARGET_COLUMN = "Cancer"
+    TARGET_COLUMN = "Cancer_Type"
 
     X = data.drop(columns=[TARGET_COLUMN])
     y_true = data[TARGET_COLUMN]
