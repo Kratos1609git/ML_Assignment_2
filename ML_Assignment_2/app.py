@@ -7,6 +7,8 @@ from sklearn.metrics import (
     f1_score, roc_auc_score, matthews_corrcoef,
     confusion_matrix, classification_report
 )
+#!pip install matplotlib
+#!pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 
