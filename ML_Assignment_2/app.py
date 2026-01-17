@@ -9,8 +9,8 @@ from sklearn.metrics import (
 )
 #!pip install matplotlib
 #!pip install seaborn
-import matplotlib.pyplot as plt
-import seaborn as sns
+#import matplotlib.pyplot as plt
+#import seaborn as sns
 
 st.set_page_config(page_title="Cancer Risk Classification", layout="wide")
 st.title("Cancer Risk Classification – ML Assignment 2")
