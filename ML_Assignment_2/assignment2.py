@@ -244,6 +244,5 @@ joblib.dump(best_knn, "model/knn.pkl")
 joblib.dump(nb, "model/naive_bayes.pkl")
 joblib.dump(best_rf, "model/random_forest.pkl")
 joblib.dump(best_xgb, "model/xgboost.pkl")
-#joblib.dump(scaler, "model/scaler.pkl")#
 
-print("\nAll models and scaler saved successfully in /model folder")
+print("\nAll models saved successfully in /model folder")
